@@ -62,7 +62,9 @@ header{
   top: 0;
   left: 0;
 }
-navbar{
+
+nav{
+float: center;
 width: calc(100% - 0px);
 height: calc(100% - 0px);
 white-space: nowrap;
