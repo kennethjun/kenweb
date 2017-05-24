@@ -63,8 +63,7 @@ header{
   left: 0;
 }
 
-nav{
-float: center;
+nav ul li{
 width: calc(100% - 0px);
 height: calc(100% - 0px);
 white-space: nowrap;
