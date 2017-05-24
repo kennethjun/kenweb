@@ -67,7 +67,7 @@ nav ul li{
 width: calc(100% - 0px);
 height: calc(100% - 0px);
 white-space: nowrap;
-display: inline-block;
+display: -webkit-inline-box;
 overflow: visible;
 width: calc(100% - 0px);
 background-color: rgba(38, 38, 38, 1);
