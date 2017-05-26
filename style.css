@@ -5,6 +5,13 @@
   border: 0;
   padding:0;
 }
+header{
+  width: 100%
+  height: 100px
+  top: 0;
+  left: 0;
+  background:#999;
+}
 body {
   background: #F1F6F8;
   font-family: Helvetica;
@@ -16,6 +23,18 @@ navbar-wrapper{
   position: absolute;
   top: 168px;
   height: 28px;
+  background: #999;
+  color: #CDCDCD;
+}
+navbar-wrapper ul li{
+  background: #999;
+  color: #CDCDCD;
+  display: inline-block;
+  padding: 0 10px;
+  margin:0px;
+}
+navbar-wrapper ul li a{
+  color:#CDCDCD;
 }
 img{
   display: block;
@@ -25,6 +44,7 @@ img{
   width: auto;
   margin-bottom: -4px;
 }
+/*
 wrapper{
   margin: 0;
   padding: 0;
@@ -39,7 +59,7 @@ position: absolute;
 top: 200px;
 height: 570px;
 left: 0px;
-}
+} */
 banner-inner{
 overflow: hidden;
 left: 0px;
@@ -55,34 +75,4 @@ banner-wrapper{
   right: 0;
   bottom: 0;
   left: 0;
-}
-header{
-  width: 100%
-  height: 100px
-  top: 0;
-  left: 0;
-}
-
-nav ul li{
-width: calc(100% - 0px);
-height: calc(100% - 0px);
-white-space: nowrap;
-display: -webkit-inline-box;
-overflow: visible;
-width: calc(100% - 0px);
-background-color: rgba(38, 38, 38, 1);
-border-radius: 0;
-border: solid 0px rgba(33, 44, 41, 1);
-position: relative;
-}
-menu-icon{
-background-color: rgba(38, 38, 38, 1);
-transition: background-color 0.4s ease 0s;
-display: inherit;
-color: grey;
-width: 196px;
-height: 28px;
-position: relative;
-box-sizing: border-box;
-overflow: visible;
 }
