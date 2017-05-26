@@ -36,12 +36,13 @@ navbar-wrapper ul li{
 navbar-wrapper ul li a{
   color:#CDCDCD;
 }
-img.mid-img{
+
+mid-banner img.mid-img{
   max-width: 50%;
   max-height: 50%;
-  margin: 0 auto;
+  margin-left: 25%;
   /*height: auto;*/
-  width: auto;
+  /*width: auto;*/
   /*margin-bottom: -4px;*/
 }
 /*
