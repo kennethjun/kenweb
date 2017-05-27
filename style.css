@@ -1,40 +1,65 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
 
-*{
-  margin: 0;
-  border: 0;
-  padding:0;
+body{
+  margin:0;
 }
 header{
-  width: 100%
-  height: 100px
-  top: 0;
-  left: 0;
-  background:#999;
+  background:grey;
+  color:#CDCDCD;
 }
-body {
-  background: #F1F6F8;
-  font-family: Helvetica;
-  margin: 0 auto;
+nav ul{
+  margin: 0;
 }
-navbar-wrapper{
+nav ul li{
+  background:grey;
+  color:#CDCDCD;
+  display: inline-block;
+  list-style-type:none;
   left: 0px;
-  width: 980px;
+  width: 25%
   position: absolute;
   top: 168px;
   height: 28px;
-  background: #999;
-  color: #CDCDCD;
+  margin: 6px;
+  
+  
+  line-height: 28px  
 }
-navbar-wrapper ul li{
-  background: #999;
-  color: #CDCDCD;
-  display: inline-block;
-  padding: 0 10px;
-  margin:0px;
-}
-navbar-wrapper ul li a{
+nav ul li a{
   color:#CDCDCD;
+  text-align: center;
+  padding: 0 46px;
+}
+.mid-banner:after{
+  clear:both;
+}
+.mid-img{
+  background: white;
+  float:left;  
+  margin:8%;
+  width:15%;
+}
+footer{
+  clear:both;
+  position: absolute;
+  left:0px;
+  bottom: auto;
+  top:770px;
+  height: 163px;
+  width:980px;
+  
+  display: inline-block;
+  list-style-type:none;
+  position: absolute;
+}
+footer .banner-wrapper{
+  clear: both;
+  display: inline-block;
+  list-style-type:none;
+  position: absolute;
+  float:left;  
+  margin:8%;
+  width:15%;
 }
 
 mid-banner img.mid-img{
@@ -44,36 +69,4 @@ mid-banner img.mid-img{
   /*height: auto;*/
   /*width: auto;*/
   /*margin-bottom: -4px;*/
-}
-/*
-wrapper{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  vertical-align: baseline;
-  background: transparent;
-}
-banner{
-width: 980px;
-position: absolute;
-top: 200px;
-height: 570px;
-left: 0px;
-} */
-banner-inner{
-overflow: hidden;
-left: 0px;
-width: 980px;
-position: absolute;
-top: 20px;
-height: 550px;
-}
-
-banner-wrapper{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
