@@ -1,7 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
 
 body{
-  width:100%;
+  width:1920px;
+  height:650px;
+  font-family: sans-serif;
   margin:20px auto;
 }
 header{
